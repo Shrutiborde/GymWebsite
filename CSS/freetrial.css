@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: azure;
+}
+.input-name{
+    width:90%;
+    position: relative;
+    margin: 20px auto;
+}
+.name{
+    width: 45%;
+    padding: 5px 0 5px 10px;
+}
+.input-name span{
+    margin-left:30px ;
+}
+.text-name{
+    width: 400px;
+    padding: 5px 0 5px 10px;
+}
+.text-name, .name{
+    border: 1px solid rgb(96, 83, 136);
+    outline:none;
+    transition: all 0.30s ease-in-out;
+}
+.text-name:hover, .name:hover{
+    background-color: gray;
+}
+.button{
+    color: white;
+    background-color:blue;
+    padding: 5px 0 5px 10px;
+   width: 400px;
+}

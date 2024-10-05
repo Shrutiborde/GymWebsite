@@ -1,0 +1,13 @@
+.icons{
+    text-align: center;
+    padding: 20px;
+    font-size:35px;
+    background-color:rgb(110, 109, 109); ;
+}
+.footer{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 17px;
+    background-color: rgb(110, 109, 109);
+    text-align: center;
+    padding: 40px;
+}

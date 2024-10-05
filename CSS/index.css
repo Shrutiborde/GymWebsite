@@ -1,0 +1,94 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container .row button{
+    margin: 50px;
+    background-color: rgb(228, 41, 41);
+}
+
+.form-label{
+
+    color: rgb(222, 222, 222);
+    
+
+}
+#name{
+    background-color:rgb(228, 223, 223);
+    border-radius: 13px;
+    text-align: center;
+    font-size:large;
+        
+}
+.form-label{
+    color:white;
+    font-size: 25px;
+}
+
+#age{
+    background-color:rgb(228, 223, 223);
+    border-radius: 13px;
+    text-align: center;
+    font-size: large;
+}
+
+#gender{
+    background-color:rgb(228, 223, 223);
+    border-radius: 13px;
+    text-align: center;
+    font-size: large;
+
+    
+}
+
+#locality{
+    background-color:rgb(228, 223, 223);
+    border-radius: 13px;
+    text-align: center;
+    font-size: large;
+
+}
+.h2{
+    color: rgb(245, 102, 102);
+    font-family:'Times New Roman', Times, serif;
+    padding-bottom: 35px;
+}
+.s1{
+    background-color: rgb(224, 222, 222);
+}
+
+.icons{
+    text-align: center;
+    padding: 20px;
+    font-size:35px;
+    background-color:rgb(110, 109, 109); ;
+}
+.footer{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 17px;
+    background-color: rgb(110, 109, 109);
+    text-align: center;
+    padding: 40px;
+
+}
+.heading1{
+    text-align: center;
+    padding: 50px;
+    font-size: 50px;
+    text-shadow: 2px 4px 5px grey;
+}
+.p1{
+    font-size: 25px;
+    margin-bottom: 30px;
+    color: grey;
+}
+.heading2{
+    padding-top: 80px;
+}
+.p2{
+    font-size: 25px;
+    color: grey;
+    padding-top: 20px;
+}
+

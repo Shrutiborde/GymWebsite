@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactus</title>
+    <!--<link rel="stylesheet" href="./CSS/freetrial.css">-->
+    <link rel="stylesheet" href="./contact.css">
+    <link rel="stylesheet" href="./CSS/bootstrap.min.css">
+    <script src="./JS/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark" style="position: sticky; top: 0%;" >
+        <div class="container-fluid">
+          <img src="./images/gymlogo-removebg-preview.png" height="150" width="170" >
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse " id="navbarSupportedContent">
+            <ul class="navbar-nav  mb-lg-0">
+              <li class="nav-item fs-5 fw-bold" style="margin-left: 100px;">
+                <a class="nav-link active"  aria-current="page" href="./index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <li class="nav-item fs-5 fw-bold">
+                    <a class="nav-link active" aria-current="page" href="./aboutus.html">About Us</a>
+                  </li>
+              <!--<li class="nav-item fs-5 fw-bold">
+                <a class="nav-link active" aria-current="page" href="./fitnessprogram.html">Fitness program</a>
+              </li>-->
+              <li class="nav-item dropdown fs-5 fw-bold">
+                <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button"
+                  data-bs-toggle="dropdown" aria-expanded="false">
+                  Fitness Program
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="./corporatemembership.html">Corporate Membership</a></li>
+                  <li><a class="dropdown-item" href="./personaltrainingprogram.html">Personal Training Program</a></li>
+                  <li><a class="dropdown-item" href="./groupactivities.html">Group Activities</a></li>
+                </ul>
+              </li>
+            <li class="nav-item fs-5 fw-bold">
+                <a class="nav-link active" aria-current="page" href="./gallery.htmlx">Gallery</a>
+              </li>
+              
+              <li class="nav-item dropdown fs-5 fw-bold">
+                <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Our Services
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <!--<li><a class="dropdown-item" href="#">Nutritions & Suppliments</a></li>-->
+                  <li><a class="dropdown-item" href="./diets.html">Diets</a></li> 
+                </ul>
+              </li>
+
+             <a button class="btn btn-outline-danger" type="submit" href="./contactus.html">Contact Us</a></button>
+             <!--<button type="button" class="btn btn-outline-danger" data-bs-toggle="modal" data-bs-target="#exampleModal">
+              Free Trial
+            </button>-->
+            
+            <!-- Modal -->
+            <!--<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Book a Free Trial & Buy a Membershiph</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+          
+                      
+                          <form>
+                              <div class="input-name">
+                                  <input type="text" placeholder="First Name" class="name">
+          
+                                  <span>
+                                      <input type="text" placeholder="Last Name" class="name">
+                                  </span>
+                              </div>
+          
+                              <div class="input-name">
+                                  <input type="mail" placeholder="Enter Email" class="text-name">
+                              </div>
+          
+                              <div class="input-name">
+                                  <input type="password" placeholder="Password" class="text-name">
+                              </div>
+          
+                              <div class="input-name">
+                                  <input type="password" placeholder="Confirm Password" class="text-name">
+                              </div>
+          
+                              <div class="input-name">
+                                  <input type="radio" class="radio-btn" name="r1">
+                                  <label>Male</label>
+          
+                                  <input type="radio" class="radio-btn" name="r1">
+                                  <label>Female</label>
+                              </div>
+          
+                              
+                              <div class="input-name">
+                                  <input type="checkbox" class="check-button">
+                                  <label>I accept the terms and conditions</label>
+                              </div>
+          
+                              <div class="input-name">
+                                  <input type="submit" class="button" value="Register">
+                                  
+                              </div>
+              
+          </div>
+        </div>->-->
+      </nav>
+
+     
+    
+        <div class="container mb-3">
+          <p class="h1" style="color: red; text-align: center; margin: 50px; font-size: 60px; font-family:'Times New Roman', Times, serif"><b>Contact Us</b></p>
+          <form id="contactForm">
+              <div class="mb-3">
+                  <label for="name" class="form-label">Name</label>
+                  <input type="text" class="form-control" id="name" name="name" required>
+              </div>
+              <div class="mb-3">
+                  <label for="mobile" class="form-label">Mobile Number</label>
+                  <input type="tel" class="form-control" id="mobile" name="mobile" required>
+              </div>
+              <div class="mb-3">
+                  <label for="email" class="form-label">Email address</label>
+                  <input type="email" class="form-control" id="email" name="email" required>
+              </div>
+              <div class="mb-3">
+                  <label for="message" class="form-label">Message</label>
+                  <textarea class="form-control" id="message" name="message" rows="3" required></textarea>
+              </div>
+              <button type="submit" class="btn btn-danger" style="padding: 15px; font-size: larger;">Send Message</button>
+          </form>
+          <div id="statusMessage" class="mt-3"></div>
+      </div>
+      
+
+
+
+
+
+             <!-- Bootstrap 5 JS and EmailJS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
+
+<script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init({
+        publicKey: "mxKi1TY1f6kGf3m31",
+      });
+   })();
+
+    document.getElementById('contactForm').addEventListener('submit', function(event) {
+        event.preventDefault();
+        
+        let name = document.getElementById('name').value;
+        let mobile = document.getElementById('mobile').value;
+        let email = document.getElementById('email').value;
+        let message = document.getElementById('message').value;
+
+
+       
+
+        let templateParams = {
+            name: name,
+            mobile: mobile,
+            email: email,
+            message: message,
+
+        };
+        emailjs.send('service_4mhsmci','template_q4eb5rc', templateParams)
+        .then(function(response) {
+            document.getElementById('statusMessage').innerHTML = '<div class="alert alert-success">Message sent successfully!</div>';
+        }, function(error) {
+            document.getElementById('statusMessage').innerHTML = '<div class="alert alert-danger">Failed to send message. Please try again later.</div>';
+        });
+    });
+</script>
+    
+            <div class="map-container">
+                <div class="mapBg">
+                <div class="map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3784.2414035659885!2d73.81863897465107!3d18.472721370635206!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2955db2c337e3%3A0x356c641bacfa4a87!2sJanorkar&#39;s%20Gym!5e0!3m2!1sen!2sin!4v1725805539961!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+    
+        <div class="contactMethod">
+            <div class="method">
+                <i class="fa-solid fa-location-dot contactIcon" style="margin: 20px;"></i>
+                <article class="text">
+                    <h1 class="sub-heading" style="color: black; margin: 20px;">Location</h1>
+                    <p class="para" style="color:rgb(238, 90, 90); margin: 20px;"><b>411041 Manikbaug Sinhgad Road, Pune</b></p>
+                </article>
+            </div>
+    
+            <div class="method">
+                <i class="fa-solid fa-envelope contactIcon" style="margin: 20px;"></i>
+                <article class="text">
+                    <h1 class="sub-heading" style="color: black; margin: 20px;">Email</h1>
+                    <p class="para" style="color: rgb(238, 90, 90); margin: 20px;"><b>Email: janorkarsgym3@gmail.com</b></p>
+                </article>
+            </div>
+    
+            <div class="method">
+                <i class="fa-solid fa-phone contactIcon" style="margin: 20px;"></i>
+                <article class="text">
+                    <h1 class="sub-heading" style="color: black; margin: 20px;">Phone</h1>
+                    <p class="para" style="color: rgb(238, 90, 90); margin: 20px;"><b>9322895510 Gaurav Janorkar</b></p>
+                </article>
+            </div>
+        </div>
+      
+
+       
+
+      
+
+
+       <div class="icons">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+          integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+          crossorigin="anonymous" referrerpolicy="no-referrer"/>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-instagram"></i>
+      </div>
+    
+      <footer class="footer">
+        <h4><b>Janorkar Gym, Sinhgad Road 411041,Pune,India. Copyright @ 2024</b></h4><br><br>
+        <h4><b>Website Design by Shruti Borde</b></h4>
+      </footer>
+    
+</body>
+</html>

@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+  section{
+    background-color: rgb(254, 249, 249);
+  }
+  body .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 1200px;
+  }
+  body .container .card {
+    position: relative;
+    min-width: 320px;
+    height: 440px;
+    box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.2),
+      inset -5px -5px 15px rgba(255, 255, 255, 0.1),
+      5px 5px 15px rgba(255, 154, 154, 0.3), -5px -5px 15px rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    margin: 30px;
+    transition: 0.5s;
+  }
+  body .container .card .box  {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    right: 20px;
+    bottom: 20px;
+    /* background-image:url("images/image_1.jpg");
+    background-size: 400px;
+    background-repeat: no-repeat; */
+    
+    border-radius: 15px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    transition: 0.5s;
+  }
+ body .container .card .box .content .card1 {
+ 
+    background-image:url("../imagesdiet/keto.png");
+    background-size: 250px;
+    background-repeat: no-repeat;
+    
+  }
+  body .container .card .box .content .card2 {
+   
+   background-image:url("../imagesdiet/paleo.png");
+   background-size: 241px;
+   background-repeat: no-repeat;
+   
+  }
+  body .container .card .box .content .card3 {
+   
+   background-image:url("../imagesdiet/vegan.png");
+   background-size: 275px;
+   background-repeat: no-repeat; 
+  
+  }
+  body .container .card .box .content .card4 {
+   
+   background-image:url("../imagesdiet/Mediterranean.png");
+   background-size: 230px;
+   background-repeat: no-repeat;
+  
+  }
+  body .container .card .box .content .card5 {
+   
+   background-image:url("../imagesdiet/dukan.png");
+   background-size: 241px;
+   background-repeat: no-repeat;
+  
+  }
+  body .container .card .box .content .card6 {
+   
+   background-image:url("../imagesdiet/No\ carb.png");
+   background-size: 241px;
+   background-repeat: no-repeat;
+   
+  }
+  body .container .card .box .content .card7{
+   
+   background-image:url("../imagesdiet/low\ carb.png");
+   background-size: 241px;
+   background-repeat: no-repeat;
+  
+  }
+  body .container .card .box .content .card8 {
+   
+   background-image:url("../imagesdiet/fibre.png");
+   background-size: 250px;
+   background-repeat: no-repeat;
+   
+  }
+  body .container .card .box .content .card9 {
+   
+   background-image:url("../imagesdiet/protein.png");
+   background-size: 261px;
+   background-repeat: no-repeat;
+  
+  }
+  body .container .card .box:hover {
+    transform: translateY(-50px);
+  
+  }
+  
+  body .container .card .box:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    /* background: rgba(255, 255, 255, 0.03); */
+  }
+  
+  body .container .card .box .content {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  body .container .card .box .content h2 {
+    position: absolute;
+    top: -10px;
+    right: 30px;
+    font-size: 8rem;
+    color: rgba(255, 255, 255, 0.1);
+  }
+  
+  body .container .card .box .content h3 {
+    font-size: 1.8rem;
+    color: black;
+    z-index: 1;
+    transition: 0.5s;
+    margin-bottom: 15px;
+  }
+  
+  body .container .card .box .content p {
+    font-size: 1rem;
+    font-weight: 300;
+    color: black;
+    z-index: 1;
+    transition: 0.5s;
+  }
+  .icons{
+    text-align: center;
+    padding: 20px;
+    font-size:35px;
+    background-color:rgb(110, 109, 109); ;
+}
+.footer{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 17px;
+    background-color: rgb(110, 109, 109);
+    text-align: center;
+    padding: 40px;
+
+}

@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.heading1{
+    color: black;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: underline gray;
+    padding-top: 30px;
+}
+.heading2{
+    font-size:40px;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 80px;
+}
+.p1{
+    font-size: 20px;
+    color: gray;
+}
+.p2{
+    font-size: 20px;
+    color: rgb(127, 123, 123);
+}
+.icons{
+    text-align: center;
+    padding: 20px;
+    font-size:35px;
+    background-color:rgb(110, 109, 109); ;
+}
+.footer{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 17px;
+    background-color: rgb(110, 109, 109);
+    text-align: center;
+    padding: 40px;
+
+}
+section{
+    background-color: rgb(248, 246, 246);
+}
